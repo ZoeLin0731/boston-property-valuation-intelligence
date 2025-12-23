@@ -1,0 +1,42 @@
+# =========================
+# OS / Editor junk
+# =========================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# =========================
+# Python / Jupyter
+# =========================
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# =========================
+# Data files (exclude large/local data)
+# =========================
+data/raw/*
+data/processed/*
+
+# =========================
+# Database / credentials
+# =========================
+.env
+*.env
+credentials.yml
+secrets.yml
+
+# =========================
+# Tableau
+# =========================
+*.hyper
+*.tds
+*.tdsx
+*.log
+
+# =========================
+# Temporary exports
+# =========================
+tableau/extract/*
